@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +13,16 @@ public class PlayerController : MonoBehaviour
     private Vector2 lastPos = Vector2.right;
     
     [SerializeField] private GameObject bomb;
+
+    private void Start()
+    {
+        PlayerEvents.OnPlayerDeath += OnPlayerDeath;
+    }
+
+    private void OnPlayerDeath()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
 
     private void Update()

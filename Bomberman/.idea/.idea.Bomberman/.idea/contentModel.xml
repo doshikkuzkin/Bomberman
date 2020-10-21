@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Effect.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -25,7 +26,9 @@
         </e>
         <e p="Script" t="Include">
           <e p="Bomb.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerEvents.cs" t="Include" />
         </e>
       </e>
       <e p="Bomberman.sln" t="IncludeFlat" />
