@@ -7937,7 +7937,7 @@ MonoBehaviour:
   direction: {x: 0, y: 1}
   raycastMask:
     serializedVersion: 2
-    m_Bits: 823
+    m_Bits: 567
   speed: 3
 --- !u!1 &643514896
 GameObject:
@@ -25388,5 +25388,5 @@ MonoBehaviour:
   direction: {x: 1, y: 0}
   raycastMask:
     serializedVersion: 2
-    m_Bits: 823
+    m_Bits: 567
   speed: 3
